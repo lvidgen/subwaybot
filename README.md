@@ -2,7 +2,7 @@
 
 ### Apologies, etc
 
-Not meant to be a working example, just playing around. 
+Not meant to be a viable product, just playing around. 
 
 Error checking, input validation conspicuously absent
 
