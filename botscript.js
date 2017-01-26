@@ -105,7 +105,7 @@ document.getElementById("start").onclick=function(){
 	        var val = event.results[i][0].transcript.toLowerCase();
 	        switch (idx) {
 	          case 1:
-	            idx = quests[1].opts.indexOf(val) + 2;
+	            idx = quests[1].opts.indexOf(val) + 2;   //worth more thought - will break if array changed
 	            giveOpts();
 	            idx = 6;
 	            break;
@@ -113,7 +113,6 @@ document.getElementById("start").onclick=function(){
 	            var label = idx === 6 ? "fill" : quests[idx].label;
 	            sub[label] = val;
 	            idx++;
-	            console.log(sub);
 	            if (idx < quests.length) {
 	              giveOpts();
 	            }
