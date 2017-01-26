@@ -95,7 +95,7 @@ document.getElementById("start").onclick=function(){
 	function listenUp() {
 	  recognition.start();
 	  recognition.onresult = function(event) {
-	    if (typeof(event.results) === 'undefined') { //What's that you say? Dunno if this works as expected...
+	    if (typeof(event.results) === 'undefined') { //What's that you say? Dunno if this works as expected
 	      recognition.stop();
 	      giveOpts();
 	    }
