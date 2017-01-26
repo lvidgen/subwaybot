@@ -1,0 +1,17 @@
+html,body {
+  height:100%;
+  width:100%;
+  margin:0;
+}
+body {
+  display:flex;
+}
+button {
+  margin:auto;
+  height:40%;
+  width:40%;
+  background-color:green;
+  color:white;
+  font-weight:bold;
+  font-size:large;
+}
